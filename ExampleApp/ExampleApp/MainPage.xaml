@@ -9,15 +9,18 @@
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
       mc:Ignorable="d">
 
-    <Grid>
+    <Grid Background="Chartreuse">
 
 
 
-        <UI:AdControl Width="320"
-                      Height="50"
+        <UI:AdControl Width="330"
+                      Height="60"
                       Margin="0"
                       HorizontalAlignment="Center"
-                      VerticalAlignment="Top" />
+                      VerticalAlignment="Top"
+                      AdUnitId="AdUnitId_123456"
+                      ApplicationId="1234567U8I9AZERTYSDFGXCVBSDFGERT"
+                      Background="Red" />
 
 
 
@@ -25,7 +28,8 @@
                                      Height="250"
                                      Margin="0"
                                      HorizontalAlignment="Center"
-                                     VerticalAlignment="Center" />
+                                     VerticalAlignment="Center"
+                                     Background="Blue" />
 
 
 
